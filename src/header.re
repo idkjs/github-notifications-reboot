@@ -28,7 +28,7 @@ let make = (~loggedIn, ~onLogout, _children) => {
         logoutButton(onLogout) :
         loginButton(
           "27778e7d924f0023ca79",
-          "https://idkjs.github.io/github-notification-reboot",
+          "https://idkjs.github.io/github-notifications-reboot",
         );
     <nav
       className="flex justify-between bb b--white-10"

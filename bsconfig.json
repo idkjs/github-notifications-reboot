@@ -1,0 +1,16 @@
+{
+  "name": "reason-scripts",
+  "sources": ["src"],
+  "bs-dependencies": [
+    "reason-react",
+    "@glennsl/bs-jest",
+    "bs-fetch",
+    "@glennsl/bs-json"
+  ],
+  "reason": {
+    "react-jsx": 2
+  },
+  "namespace": true,
+  "bsc-flags": ["-bs-super-errors"],
+  "refmt": 3
+}
